@@ -1,0 +1,186 @@
+/*---------Goals for Website----------*/
+/*Fix Navigation*/
+/*Add Homepage*/
+/*FFix Navigation*/
+/*Add Background*/
+/*Stick to a Modular system*/
+
+/*---------Goals for Website----------*/
+
+
+
+
+/*Stlye Sheet for my website*/
+
+body{
+    background-color: #f4f4f4;
+    height;1000px;
+margin: 0}
+
+
+#header{
+   margin-top:210px;
+   
+}
+
+
+
+p {
+    font-family: futura;
+    color: black;
+}
+
+
+
+
+#quote{
+    font-family: futura;
+    color: black;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+h1{
+    font-size: 40px;
+    color: darkslategray;
+    font-family: futura;
+    padding-top: 50px;
+    text-align: center;
+}
+
+h3{
+    font-size: 40px;
+    color: dimgray;
+    font-family: futura;
+    text-align: center;
+}
+
+#container{
+    height: 1500px;
+    background-color: white;
+    border: solid 8px black;
+}
+
+
+#work{
+   background-color: none;
+    padding: 0%;
+    margin: 0%;
+    display: inline;
+}
+
+
+#section{
+    float: left;
+    width: 360px;
+    font-size: 22px;
+    padding:60px;
+}
+
+
+
+
+/*-------------NAV----------------*/
+
+
+/* this controls the padding */
+
+/*Actual properties of the navigation*/
+.navi {
+    list-style: none;
+    background-color: none;
+    width: 100%;
+    height:60px;
+    text-decoration: none;
+    overflow: hidden;
+    top: 10px;
+    position: fixed;
+}
+
+
+/* "a" makes it into a link*/
+.navi a{
+    font-family: futura;
+    list-style: none;
+    padding: 10px;
+    padding-left: 20px;
+    color: cadetblue;
+    display:inline;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.navi a:hover{
+    background-color: none;
+    text-decoration-line: underline;
+    color: darkred;
+}
+
+#logo{  
+    position: fixed;
+    float: right;
+}
+
+#logoimg{
+    top:30;
+    width: 90px;
+    margin-left: 550px;
+    float: right;
+    position: fixed;
+    
+}
+
+
+/* Attempt at a parallax*/
+
+.navi {
+    list-style: none;
+    background-color: none;
+    width: 100%;
+    height:60px;
+    text-decoration: none;
+    overflow: hidden;
+    top: 10px;
+    position: fixed;
+}
+
+/* Form CSS */
+
+
+
+
+
+
+/*Footer*/
+.footer a{
+    font-family: futura;
+    list-style: none;
+    padding: 10px;
+    padding-left: 20px;
+    color: cadetblue;
+    display:inline;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+
+#footer {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.footer a:hover{
+    background-color: none;
+    text-decoration-line: underline;
+    color: darkred;
+}
